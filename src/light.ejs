@@ -102,7 +102,7 @@
 				<div class="column">
 					<div class="projects">
 						<div class="title is-size-5 has-text-primary has-text-weight-bold">
-							PROJECTS
+							SOME RECENT PROJECTS
 						</div>
 
 						<% content.data.projects.forEach(function(proj){ %>
@@ -119,14 +119,30 @@
 
 					<div class="skills">
 						<div class="title is-size-5 has-text-primary has-text-weight-bold">
-							SKILLS
+							PRIMARY SKILLS
 						</div>
 						<div class="wrapper">
 							<% content.data.skills.forEach(function(skill){ %>
 							<div class="item">
-								<div><%= skill.name %></div>
+								<div class="item-title"><%= skill.name %></div>
+								<div class="item-progress">
+									<div class="item-progress__inner" style="width: <%= skill.progress %>%">
+									</div>
+								</div>
 							</div>
 							<% }); %>
+						</div>
+					</div>
+					<div class="aboutme">
+						<div class="title is-size-5 has-text-primary has-text-weight-bold">
+							ABOUT ME
+						</div>
+						<div class="wrapper">
+							<ul style="list-style: disc; margin-left: 1em">
+								<% content.data.aboutme.forEach(function(des){ %>
+								<li><%= des %></li>
+								<% }); %>
+							</ul>
 						</div>
 					</div>
 					<div class="languages">
@@ -152,14 +168,14 @@
 		</div>
 	</section>
 
-	<footer class="footer">
+	<!-- <footer class="footer">
 		<div class="content has-text-centered">
 			<a href="<%= content.config.publicPath %>/">See Dark Theme</a>
 			<br />
 			Copyright © 2018-2019 by
 			<a href="https://mazipan.space">Irfan Maulana</a>
 		</div>
-	</footer>
+	</footer> -->
 
 	<footer class="line has-background-primary"></footer>
 
