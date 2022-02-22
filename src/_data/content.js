@@ -45,7 +45,7 @@ const data = {
         'Maintaining 5+ web apps of AI projects for government business, mostly in Vue.js, partly in React.js',
         'Mentoring 5 web engineers to write a better quality code.',
         'Part of the core team: mostly create tools to boost the developer productivity, doing research for new things on the web, gate-keeper for the core web platform initiatives.',
-        'Technologies: Vue2/Vue3/MSE/Streaming Media/GIS/Mapbox/Openlayer/React/Webgl/Threejs/Babylonjs/Graphql/Vue-appollo/ES-Next/Typescript/Nodejs/Scss',
+        'Technologies: Vue2/Vue3/MSE/Streaming Media/GIS/Mapbox/Openlayer/React/Redux/Threejs/Babylonjs/Graphql/Vue-appollo/ES-Next/Typescript/Nodejs/Scss',
       ],
     },
     {
@@ -57,7 +57,7 @@ const data = {
         'Develop and maintain some business platforms for docking funds and assets.',
         'Develop common utilities/helpers code and setup the unit test for the frontend codebase.',
         'Doing small stuff in backend using Nodejs.',
-        'Technologies: Vue1.x/Angular1.x/ES-Next/Cordova/Gulp/Nodejs/Nest.js/Scss',
+        'Technologies: Vue1/Vue2/Angular1/ES-Next/Cordova/Gulp/Nodejs/Nest.js/Scss',
       ],
     },
     {
